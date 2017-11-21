@@ -1,7 +1,7 @@
-from classes.fileClass import file
+from classes.fileClass import file #Import fileClass
 
+#Create objects
 
-#Create object
 fasta = file()
 fasta.openFile("/home/parham/Documents/Python/DNA_Motif_PKG/importFiles/ebola.fasta")
 fasta.sequence()
